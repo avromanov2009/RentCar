@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Заказать машину</title>
+	<meta charset="utf-8" />
+	<style>
+		.button24 {
+			display: inline-block;
+			color: white;
+			text-decoration: none;
+			padding: .5em 2em;
+			outline: none;
+			border-width: 2px 0;
+			border-style: solid none;
+			border-color: #FDBE33 #000 #D77206;
+			border-radius: 6px;
+			background: linear-gradient(#F3AE0F, #E38916) #E38916;
+			transition: 0.2s;
+		}
+
+		.button24:hover {
+			background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+		}
+
+		.button24:active {
+			background: linear-gradient(#f59500, #f5ae00) #f59500;
+		}
+
+		.buttonReset {
+			display: inline-block;
+			color: white;
+			text-decoration: none;
+			padding: .5em 2em;
+			outline: none;
+			border-width: 2px 0;
+			border-style: solid none;
+			border-color: #f91014 #000 #bc1013;
+			border-radius: 6px;
+			background: linear-gradient(#f91014, #bc1013) #e41113;
+			transition: 0.2s;
+		}
+
+		.buttonReset:hover {
+			background: linear-gradient(#f91014, #f11417) #e41113;
+		}
+
+		.buttonReset:active {
+			background: linear-gradient(#f91014, #bc1013) #e41113;
+		}
+
+		form {
+			height: 10em;
+			display: flex;
+			align-items: center;
+			justify-content: center
+		}
+
+	</style>
+</head>
+
+<body>
+	<form>
+		<input type="date" name="usr_date">
+		<input type="time" name="usr_time">
+		<input type="submit" class="button24">
+		<input type="reset" class="buttonReset">
+	</form>
+</body>
+
+</html>
